@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="CarDW_connection"
+  DTS:DTSID="{D2E510F6-8F4A-4798-A0A8-C7ABDEFB2AB2}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=CarDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-CarPrices-{D2E510F6-8F4A-4798-A0A8-C7ABDEFB2AB2}LocalHost.CarDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
